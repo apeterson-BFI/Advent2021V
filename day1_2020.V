@@ -1,10 +1,11 @@
-Require Import String.
-Require Import Coq.Numbers.BinNums.
-Require Import PArith.
-Require Import Coq.Lists.List.
-Require Import Coq.Init.Nat.
-Require Import Coq.Sorting.Mergesort.
-(* not working  Require Import Maps. *)
+Require Export String.
+Require Export Coq.Numbers.BinNums.
+Require Export PArith.
+Require Export Coq.Lists.List.
+Require Export Coq.Init.Nat.
+Require Export Coq.Sorting.Mergesort.
+Add LoadPath "c:\users\aap\documents\github\advent2021v\" as ADV.
+From ADV Require Export Maps.
 
 Notation "x :: y" := (cons x y)
                      (at level 60, right associativity).
@@ -70,7 +71,6 @@ Definition mp3 := crossfilter3 rule3 day1_2020_input day1_2020_input day1_2020_i
 
 Definition fst3p := if hasb mp3 then nth O mp3 (1,1,1) else (1,1,1).
 
-
 Definition resultP1 := fst fstpair * snd fstpair.
 
 Definition resultP2 := fst (fst fst3p) * snd (fst fst3p) * snd fst3p.
@@ -79,3 +79,5 @@ Definition resultP2 := fst (fst fst3p) * snd (fst fst3p) * snd fst3p.
 Compute resultP1.
 (* Expect 12747392 *)
 Compute resultP2.
+
+
