@@ -70,7 +70,6 @@ Definition mp3 := crossfilter3 rule3 day1_2020_input day1_2020_input day1_2020_i
 
 Definition fst3p := if hasb mp3 then nth O mp3 (1,1,1) else (1,1,1).
 
-
 Definition resultP1 := fst fstpair * snd fstpair.
 
 Definition resultP2 := fst (fst fst3p) * snd (fst fst3p) * snd fst3p.
@@ -79,3 +78,5 @@ Definition resultP2 := fst (fst fst3p) * snd (fst fst3p) * snd fst3p.
 Compute resultP1.
 (* Expect 12747392 *)
 Compute resultP2.
+
+
