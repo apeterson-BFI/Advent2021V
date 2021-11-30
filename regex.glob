@@ -1,0 +1,394 @@
+DIGEST 399bb0d4b97893c567f52e09d3d455b7
+FADV.regex
+R90:98 ADV.day1_2020 <> <> lib
+R116:133 Coq.Strings.String <> <> lib
+R151:167 Coq.Strings.Ascii <> <> lib
+R185:204 Coq.PArith.BinPosDef <> <> lib
+R222:228 Coq.Numbers.BinNums <> <> lib
+def 274:285 <> empty_string
+ind 305:309 <> regex
+constr 324:328 <> Empty
+constr 342:345 <> Char
+constr 368:372 <> Union
+constr 404:406 <> App
+R332:336 ADV.regex <> regex:1 ind
+R354:357 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R358:362 ADV.regex <> regex:1 ind
+R349:353 Coq.Strings.Ascii <> ascii ind
+R381:384 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R390:393 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R394:398 ADV.regex <> regex:1 ind
+R385:389 ADV.regex <> regex:1 ind
+R376:380 ADV.regex <> regex:1 ind
+R415:418 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R424:427 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R428:432 ADV.regex <> regex:1 ind
+R419:423 ADV.regex <> regex:1 ind
+R410:414 ADV.regex <> regex:1 ind
+def 475:484 <> union_list
+R491:494 Coq.Init.Datatypes <> list ind
+R496:500 Coq.Strings.Ascii <> ascii ind
+binder 487:487 <> l:3
+R514:514 ADV.regex <> l:3 var
+R525:526 ADV.day1_2020 <> :::'['_']' not
+R531:535 ADV.regex <> Empty constr
+R542:545 ADV.day1_2020 <> :::x_'::'_x not
+R552:556 ADV.regex <> Union constr
+R568:577 ADV.regex <> union_list:4 def
+R559:562 ADV.regex <> Char constr
+def 602:607 <> digits
+R612:621 ADV.regex <> union_list def
+R623:623 ADV.day1_2020 <> :::'['_x_';'_'..'_';'_x_']' not
+R627:627 ADV.day1_2020 <> :::'['_x_';'_'..'_';'_x_']' not
+R631:631 ADV.day1_2020 <> :::'['_x_';'_'..'_';'_x_']' not
+R635:635 ADV.day1_2020 <> :::'['_x_';'_'..'_';'_x_']' not
+R639:639 ADV.day1_2020 <> :::'['_x_';'_'..'_';'_x_']' not
+R643:643 ADV.day1_2020 <> :::'['_x_';'_'..'_';'_x_']' not
+R647:647 ADV.day1_2020 <> :::'['_x_';'_'..'_';'_x_']' not
+R651:651 ADV.day1_2020 <> :::'['_x_';'_'..'_';'_x_']' not
+R655:655 ADV.day1_2020 <> :::'['_x_';'_'..'_';'_x_']' not
+R659:659 ADV.day1_2020 <> :::'['_x_';'_'..'_';'_x_']' not
+R663:663 ADV.day1_2020 <> :::'['_x_';'_'..'_';'_x_']' not
+def 678:686 <> lowercase
+R691:700 ADV.regex <> union_list def
+R702:702 ADV.day1_2020 <> :::'['_x_';'_'..'_';'_x_']' not
+R706:706 ADV.day1_2020 <> :::'['_x_';'_'..'_';'_x_']' not
+R710:710 ADV.day1_2020 <> :::'['_x_';'_'..'_';'_x_']' not
+R714:714 ADV.day1_2020 <> :::'['_x_';'_'..'_';'_x_']' not
+R718:718 ADV.day1_2020 <> :::'['_x_';'_'..'_';'_x_']' not
+R722:722 ADV.day1_2020 <> :::'['_x_';'_'..'_';'_x_']' not
+R726:726 ADV.day1_2020 <> :::'['_x_';'_'..'_';'_x_']' not
+R730:730 ADV.day1_2020 <> :::'['_x_';'_'..'_';'_x_']' not
+R734:734 ADV.day1_2020 <> :::'['_x_';'_'..'_';'_x_']' not
+R738:738 ADV.day1_2020 <> :::'['_x_';'_'..'_';'_x_']' not
+R742:742 ADV.day1_2020 <> :::'['_x_';'_'..'_';'_x_']' not
+R746:746 ADV.day1_2020 <> :::'['_x_';'_'..'_';'_x_']' not
+R750:750 ADV.day1_2020 <> :::'['_x_';'_'..'_';'_x_']' not
+R754:754 ADV.day1_2020 <> :::'['_x_';'_'..'_';'_x_']' not
+R758:758 ADV.day1_2020 <> :::'['_x_';'_'..'_';'_x_']' not
+R762:762 ADV.day1_2020 <> :::'['_x_';'_'..'_';'_x_']' not
+R766:766 ADV.day1_2020 <> :::'['_x_';'_'..'_';'_x_']' not
+R770:770 ADV.day1_2020 <> :::'['_x_';'_'..'_';'_x_']' not
+R774:774 ADV.day1_2020 <> :::'['_x_';'_'..'_';'_x_']' not
+R778:778 ADV.day1_2020 <> :::'['_x_';'_'..'_';'_x_']' not
+R782:782 ADV.day1_2020 <> :::'['_x_';'_'..'_';'_x_']' not
+R786:786 ADV.day1_2020 <> :::'['_x_';'_'..'_';'_x_']' not
+R790:790 ADV.day1_2020 <> :::'['_x_';'_'..'_';'_x_']' not
+R794:794 ADV.day1_2020 <> :::'['_x_';'_'..'_';'_x_']' not
+R798:798 ADV.day1_2020 <> :::'['_x_';'_'..'_';'_x_']' not
+R802:802 ADV.day1_2020 <> :::'['_x_';'_'..'_';'_x_']' not
+R806:806 ADV.day1_2020 <> :::'['_x_';'_'..'_';'_x_']' not
+def 821:829 <> uppercase
+R834:843 ADV.regex <> union_list def
+R845:845 ADV.day1_2020 <> :::'['_x_';'_'..'_';'_x_']' not
+R849:849 ADV.day1_2020 <> :::'['_x_';'_'..'_';'_x_']' not
+R853:853 ADV.day1_2020 <> :::'['_x_';'_'..'_';'_x_']' not
+R857:857 ADV.day1_2020 <> :::'['_x_';'_'..'_';'_x_']' not
+R861:861 ADV.day1_2020 <> :::'['_x_';'_'..'_';'_x_']' not
+R865:865 ADV.day1_2020 <> :::'['_x_';'_'..'_';'_x_']' not
+R869:869 ADV.day1_2020 <> :::'['_x_';'_'..'_';'_x_']' not
+R873:873 ADV.day1_2020 <> :::'['_x_';'_'..'_';'_x_']' not
+R877:877 ADV.day1_2020 <> :::'['_x_';'_'..'_';'_x_']' not
+R881:881 ADV.day1_2020 <> :::'['_x_';'_'..'_';'_x_']' not
+R885:885 ADV.day1_2020 <> :::'['_x_';'_'..'_';'_x_']' not
+R889:889 ADV.day1_2020 <> :::'['_x_';'_'..'_';'_x_']' not
+R893:893 ADV.day1_2020 <> :::'['_x_';'_'..'_';'_x_']' not
+R897:897 ADV.day1_2020 <> :::'['_x_';'_'..'_';'_x_']' not
+R901:901 ADV.day1_2020 <> :::'['_x_';'_'..'_';'_x_']' not
+R905:905 ADV.day1_2020 <> :::'['_x_';'_'..'_';'_x_']' not
+R909:909 ADV.day1_2020 <> :::'['_x_';'_'..'_';'_x_']' not
+R913:913 ADV.day1_2020 <> :::'['_x_';'_'..'_';'_x_']' not
+R917:917 ADV.day1_2020 <> :::'['_x_';'_'..'_';'_x_']' not
+R921:921 ADV.day1_2020 <> :::'['_x_';'_'..'_';'_x_']' not
+R925:925 ADV.day1_2020 <> :::'['_x_';'_'..'_';'_x_']' not
+R929:929 ADV.day1_2020 <> :::'['_x_';'_'..'_';'_x_']' not
+R933:933 ADV.day1_2020 <> :::'['_x_';'_'..'_';'_x_']' not
+R937:937 ADV.day1_2020 <> :::'['_x_';'_'..'_';'_x_']' not
+R941:941 ADV.day1_2020 <> :::'['_x_';'_'..'_';'_x_']' not
+R945:945 ADV.day1_2020 <> :::'['_x_';'_'..'_';'_x_']' not
+R949:949 ADV.day1_2020 <> :::'['_x_';'_'..'_';'_x_']' not
+def 964:967 <> pseq
+R983:985 Coq.Init.Datatypes <> nat ind
+binder 970:974 <> start:6
+binder 976:981 <> length:7
+R990:993 Coq.Init.Datatypes <> list ind
+R995:1002 Coq.Numbers.BinNums <> positive ind
+R1009:1011 Coq.Lists.List <> map def
+R1025:1027 Coq.Lists.List <> seq def
+R1035:1040 ADV.regex <> length:7 var
+R1029:1033 ADV.regex <> start:6 var
+R1013:1022 Coq.PArith.BinPosDef Pos of_nat def
+def 1060:1072 <> allchars_list
+R1077:1079 Coq.Lists.List <> map def
+R1095:1098 ADV.regex <> pseq def
+R1081:1092 Coq.Strings.Ascii <> ascii_of_pos def
+def 1128:1141 <> neg_union_list
+R1148:1151 Coq.Init.Datatypes <> list ind
+R1153:1157 Coq.Strings.Ascii <> ascii ind
+binder 1144:1144 <> l:8
+R1179:1184 Coq.Lists.List <> filter def
+R1227:1239 ADV.regex <> allchars_list def
+binder 1191:1191 <> c:9
+R1196:1202 Coq.Lists.List <> existsb def
+R1224:1224 ADV.regex <> l:8 var
+binder 1209:1210 <> c2:10
+R1216:1219 Coq.Strings.Ascii <> ::char_scope:x_'=?'_x not
+R1215:1215 ADV.regex <> c:9 var
+R1220:1221 ADV.regex <> c2:10 var
+binder 1169:1174 <> nchars:11
+R1246:1255 ADV.regex <> union_list def
+R1257:1262 ADV.regex <> nchars:11 var
+def 1277:1286 <> whitespace
+R1291:1300 ADV.regex <> union_list def
+R1302:1302 ADV.day1_2020 <> :::'['_x_';'_'..'_';'_x_']' not
+R1308:1308 ADV.day1_2020 <> :::'['_x_';'_'..'_';'_x_']' not
+R1314:1314 ADV.day1_2020 <> :::'['_x_';'_'..'_';'_x_']' not
+R1320:1320 ADV.day1_2020 <> :::'['_x_';'_'..'_';'_x_']' not
+R1326:1326 ADV.day1_2020 <> :::'['_x_';'_'..'_';'_x_']' not
+R1332:1332 ADV.day1_2020 <> :::'['_x_';'_'..'_';'_x_']' not
+R1338:1338 ADV.day1_2020 <> :::'['_x_';'_'..'_';'_x_']' not
+def 1353:1366 <> non_whitespace
+R1371:1384 ADV.regex <> neg_union_list def
+R1386:1386 ADV.day1_2020 <> :::'['_x_';'_'..'_';'_x_']' not
+R1392:1392 ADV.day1_2020 <> :::'['_x_';'_'..'_';'_x_']' not
+R1398:1398 ADV.day1_2020 <> :::'['_x_';'_'..'_';'_x_']' not
+R1404:1404 ADV.day1_2020 <> :::'['_x_';'_'..'_';'_x_']' not
+R1410:1410 ADV.day1_2020 <> :::'['_x_';'_'..'_';'_x_']' not
+R1416:1416 ADV.day1_2020 <> :::'['_x_';'_'..'_';'_x_']' not
+R1422:1422 ADV.day1_2020 <> :::'['_x_';'_'..'_';'_x_']' not
+def 1464:1467 <> appn
+binder 1469:1469 <> n:12
+binder 1471:1471 <> r:13
+R1484:1484 ADV.regex <> n:12 var
+R1500:1504 ADV.regex <> Empty constr
+R1510:1510 Coq.Init.Datatypes <> S constr
+R1518:1520 ADV.regex <> App constr
+R1525:1528 ADV.regex <> appn:14 def
+R1533:1533 ADV.regex <> r:13 var
+R1522:1522 ADV.regex <> r:13 var
+def 1553:1556 <> star
+binder 1558:1558 <> n:16
+binder 1560:1560 <> r:17
+R1574:1574 ADV.regex <> n:16 var
+R1590:1594 ADV.regex <> Empty constr
+R1600:1600 Coq.Init.Datatypes <> S constr
+R1608:1612 ADV.regex <> Union constr
+R1626:1629 ADV.regex <> star:18 def
+R1634:1634 ADV.regex <> r:17 var
+R1615:1618 ADV.regex <> appn def
+R1622:1622 ADV.regex <> r:17 var
+R1620:1620 ADV.regex <> n:16 var
+def 1684:1690 <> matchat
+R1699:1703 ADV.regex <> regex ind
+binder 1693:1695 <> reg:20
+R1711:1716 Coq.Strings.String <> string ind
+binder 1707:1707 <> s:21
+R1730:1732 ADV.regex <> reg:20 var
+R1743:1746 ADV.regex <> Char constr
+R1764:1764 ADV.regex <> s:21 var
+R1777:1787 Coq.Strings.String <> EmptyString constr
+R1792:1792 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1798:1799 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1801:1801 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1793:1797 Coq.Init.Datatypes <> false constr
+R1800:1800 ADV.regex <> s:21 var
+R1809:1814 Coq.Strings.String <> String constr
+R1824:1824 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1831:1832 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1835:1835 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1826:1829 Coq.Strings.Ascii <> ::char_scope:x_'=?'_x not
+R1849:1853 ADV.regex <> Union constr
+R1879:1885 ADV.regex <> matchat:22 def
+R1890:1890 ADV.regex <> s:21 var
+binder 1873:1874 <> v1:25
+R1909:1915 ADV.regex <> matchat:22 def
+R1920:1920 ADV.regex <> s:21 var
+binder 1903:1904 <> v2:26
+R1933:1935 Coq.Init.Datatypes <> fst def
+R1937:1938 ADV.regex <> v1:25 var
+R1968:1970 Coq.Init.Datatypes <> fst def
+R1972:1973 ADV.regex <> v2:26 var
+R1995:1995 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2001:2002 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2015:2015 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1996:2000 Coq.Init.Datatypes <> false constr
+R2003:2014 ADV.regex <> empty_string def
+R1981:1982 ADV.regex <> v2:26 var
+R1946:1947 ADV.regex <> v1:25 var
+R2021:2023 ADV.regex <> App constr
+R2048:2054 ADV.regex <> matchat:22 def
+R2059:2059 ADV.regex <> s:21 var
+binder 2042:2043 <> v1:27
+R2071:2073 Coq.Init.Datatypes <> fst def
+R2075:2076 ADV.regex <> v1:27 var
+R2108:2108 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2114:2115 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2128:2128 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2109:2113 Coq.Init.Datatypes <> false constr
+R2116:2127 ADV.regex <> empty_string def
+R2083:2089 ADV.regex <> matchat:22 def
+R2095:2097 Coq.Init.Datatypes <> snd def
+R2099:2100 ADV.regex <> v1:27 var
+R2134:2138 ADV.regex <> Empty constr
+R2143:2143 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2148:2149 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2151:2151 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2144:2147 Coq.Init.Datatypes <> true constr
+R2150:2150 ADV.regex <> s:21 var
+ind 2171:2185 <> capture_results
+constr 2200:2204 <> nocap
+constr 2228:2234 <> capture
+constr 2267:2277 <> app_capture
+R2208:2222 ADV.regex <> capture_results:28 ind
+R2243:2246 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2247:2261 ADV.regex <> capture_results:28 ind
+R2238:2242 Coq.Strings.Ascii <> ascii ind
+R2296:2299 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2315:2318 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2319:2333 ADV.regex <> capture_results:28 ind
+R2300:2314 ADV.regex <> capture_results:28 ind
+R2281:2295 ADV.regex <> capture_results:28 ind
+def 2377:2390 <> normalize_caps
+R2399:2413 ADV.regex <> capture_results ind
+binder 2393:2395 <> apc:30
+R2427:2429 ADV.regex <> apc:30 var
+R2440:2444 ADV.regex <> nocap constr
+R2449:2449 ADV.day1_2020 <> :::'['_x_';'_'..'_';'_x_']' not
+R2462:2462 ADV.day1_2020 <> :::'['_x_';'_'..'_';'_x_']' not
+R2450:2461 ADV.regex <> empty_string def
+R2468:2474 ADV.regex <> capture constr
+R2481:2481 ADV.day1_2020 <> :::'['_x_';'_'..'_';'_x_']' not
+R2502:2502 ADV.day1_2020 <> :::'['_x_';'_'..'_';'_x_']' not
+R2482:2487 Coq.Strings.String <> String constr
+R2491:2501 Coq.Strings.String <> EmptyString constr
+R2508:2518 ADV.regex <> app_capture constr
+R2521:2527 ADV.regex <> capture constr
+R2554:2567 ADV.regex <> normalize_caps:31 def
+binder 2548:2549 <> v1:33
+R2587:2588 ADV.regex <> v1:33 var
+R2601:2602 ADV.day1_2020 <> :::'['_']' not
+R2607:2608 ADV.day1_2020 <> :::'['_']' not
+R2616:2616 ADV.day1_2020 <> :::'['_x_';'_'..'_';'_x_']' not
+R2618:2618 ADV.day1_2020 <> :::'['_x_';'_'..'_';'_x_']' not
+R2623:2623 ADV.day1_2020 <> :::'['_x_';'_'..'_';'_x_']' not
+R2655:2655 ADV.day1_2020 <> :::'['_x_';'_'..'_';'_x_']' not
+R2624:2629 Coq.Strings.String <> append def
+R2632:2637 Coq.Strings.String <> String constr
+R2641:2651 Coq.Strings.String <> EmptyString constr
+R2664:2667 ADV.day1_2020 <> :::x_'::'_x not
+R2674:2674 ADV.day1_2020 <> :::x_'::'_x not
+R2706:2710 ADV.day1_2020 <> :::x_'::'_x not
+R2675:2680 Coq.Strings.String <> append def
+R2683:2688 Coq.Strings.String <> String constr
+R2692:2702 Coq.Strings.String <> EmptyString constr
+R2726:2736 ADV.regex <> app_capture constr
+R2747:2749 Coq.Init.Datatypes <> app def
+R2772:2785 ADV.regex <> normalize_caps:31 def
+R2752:2765 ADV.regex <> normalize_caps:31 def
+def 2808:2812 <> norm2
+R2820:2823 Coq.Init.Datatypes <> list ind
+R2825:2830 Coq.Strings.String <> string ind
+binder 2815:2816 <> sl:35
+R2844:2845 ADV.regex <> sl:35 var
+R2856:2857 ADV.day1_2020 <> :::'['_']' not
+R2862:2863 ADV.day1_2020 <> :::'['_']' not
+R2871:2874 ADV.day1_2020 <> :::x_'::'_x not
+R2881:2885 ADV.regex <> norm2:36 def
+R2895:2898 ADV.day1_2020 <> :::x_'::'_x not
+R2906:2910 ADV.day1_2020 <> :::x_'::'_x not
+R2919:2919 ADV.day1_2020 <> :::x_'::'_x not
+R2911:2915 ADV.regex <> norm2:36 def
+def 2969:2976 <> captchat
+R2985:2989 ADV.regex <> regex ind
+binder 2979:2981 <> reg:38
+R2997:3002 Coq.Strings.String <> string ind
+binder 2993:2993 <> s:39
+R3016:3018 ADV.regex <> reg:38 var
+R3029:3032 ADV.regex <> Char constr
+R3050:3050 ADV.regex <> s:39 var
+R3063:3073 Coq.Strings.String <> EmptyString constr
+R3078:3078 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3084:3085 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3098:3099 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3105:3105 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3079:3083 Coq.Init.Datatypes <> false constr
+R3086:3097 ADV.regex <> empty_string def
+R3100:3104 ADV.regex <> nocap constr
+R3113:3118 Coq.Strings.String <> String constr
+R3128:3128 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3135:3136 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3139:3140 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3176:3177 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3130:3133 Coq.Strings.Ascii <> ::char_scope:x_'=?'_x not
+R3145:3148 Coq.Strings.Ascii <> ::char_scope:x_'=?'_x not
+R3171:3175 ADV.regex <> nocap constr
+R3156:3162 ADV.regex <> capture constr
+R3191:3195 ADV.regex <> Union constr
+R3221:3228 ADV.regex <> captchat:40 def
+R3233:3233 ADV.regex <> s:39 var
+binder 3215:3216 <> v1:43
+R3252:3259 ADV.regex <> captchat:40 def
+R3264:3264 ADV.regex <> s:39 var
+binder 3246:3247 <> v2:44
+R3277:3279 Coq.Init.Datatypes <> fst def
+R3282:3284 Coq.Init.Datatypes <> fst def
+R3286:3287 ADV.regex <> v1:43 var
+R3318:3320 Coq.Init.Datatypes <> fst def
+R3323:3325 Coq.Init.Datatypes <> fst def
+R3327:3328 ADV.regex <> v2:44 var
+R3351:3351 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3357:3358 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3371:3372 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3378:3378 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3352:3356 Coq.Init.Datatypes <> false constr
+R3359:3370 ADV.regex <> empty_string def
+R3373:3377 ADV.regex <> nocap constr
+R3337:3338 ADV.regex <> v2:44 var
+R3296:3297 ADV.regex <> v1:43 var
+R3384:3386 ADV.regex <> App constr
+R3411:3418 ADV.regex <> captchat:40 def
+R3423:3423 ADV.regex <> s:39 var
+binder 3405:3406 <> v1:45
+R3435:3437 Coq.Init.Datatypes <> fst def
+R3440:3442 Coq.Init.Datatypes <> fst def
+R3444:3445 ADV.regex <> v1:45 var
+R3628:3628 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3634:3635 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3648:3649 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3655:3655 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3629:3633 Coq.Init.Datatypes <> false constr
+R3636:3647 ADV.regex <> empty_string def
+R3650:3654 ADV.regex <> nocap constr
+R3475:3482 ADV.regex <> captchat:40 def
+R3488:3490 Coq.Init.Datatypes <> snd def
+R3493:3495 Coq.Init.Datatypes <> fst def
+R3497:3498 ADV.regex <> v1:45 var
+binder 3469:3470 <> v2:46
+R3515:3517 Coq.Init.Datatypes <> fst def
+R3520:3522 Coq.Init.Datatypes <> fst def
+R3524:3525 ADV.regex <> v2:46 var
+R3590:3590 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3596:3597 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3610:3611 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3617:3617 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3591:3595 Coq.Init.Datatypes <> false constr
+R3598:3609 ADV.regex <> empty_string def
+R3612:3616 ADV.regex <> nocap constr
+R3539:3539 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3546:3547 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3577:3577 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3540:3542 Coq.Init.Datatypes <> fst def
+R3544:3545 ADV.regex <> v2:46 var
+R3548:3558 ADV.regex <> app_capture constr
+R3570:3572 Coq.Init.Datatypes <> snd def
+R3574:3575 ADV.regex <> v2:46 var
+R3561:3563 Coq.Init.Datatypes <> snd def
+R3565:3566 ADV.regex <> v1:45 var
+R3661:3665 ADV.regex <> Empty constr
+R3670:3670 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3675:3676 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3678:3679 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3685:3685 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3671:3674 Coq.Init.Datatypes <> true constr
+R3677:3677 ADV.regex <> s:39 var
+R3680:3684 ADV.regex <> nocap constr
